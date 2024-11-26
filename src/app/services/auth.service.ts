@@ -9,7 +9,7 @@ import { LoginRequest } from '../models';
 })
 export class AuthService {
 
-  private apiUrl: string = 'http://localhost:8080/api/v1/auth';
+  private apiUrl: string = 'http://localhost:4200/api/v1/auth';
   private tokenKey: string = 'authToken';
 
   constructor(private http: HttpClient) { }
